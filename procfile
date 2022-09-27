@@ -1,1 +1,1 @@
-web: gunicorn t13t.wsgi --log-file -
+web: gunicorn bekaprog211.wsgi --log-file -
