@@ -1,1 +1,1 @@
-web: gunicorn bekaprog211.wsgi --log-file -
+web gunicorn crud.wsgi:application --log-file -
